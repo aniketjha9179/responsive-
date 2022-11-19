@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Gilroy";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+}
+
+html,
+body {
+    width: 100%;
+    min-height: inherit;
+    scroll-behavior: smooth;
+
+
+
+}
+
+#main {
+    width: 100%;
+    min-height: 100vh;
+
+}
+
+#top {
+    width: 100%;
+    min-height: 60vh;
+    background-image: url(./img/dima-dallacqua-iri5on4npeo-unsplash.jpg);
+    background-size: cover;
+    background-position: 50% 60%;
+
+}
+
+#overlay {
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(239, 94, 255, 0.092);
+}
+
+#text {
+    align-items: center;
+    display: flex;
+    bottom: 20%;
+    width: 100%;
+    padding: 0 10vw;
+    position: absolute;
+    justify-content: space-between;
+}
+
+#textright {
+    display: flex;
+    width: 39%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#textright i {
+    color: #fff;
+}
+
+#textright p {
+    font-size: 12px;
+    width: 40%;
+    color: white;
+}
+
+#text h1 {
+    font-size: 6vw;
+    color: white;
+    font-weight: 300;
+}
+
+#bottom {
+    width: 100%;
+    min-height: 40vh;
+    background-color: rgb(62, 87, 255);
+    display: flex;
+
+}
+
+#bone {
+    width: 25%;
+    min-height: inherit;
+    background-color: rgb(255, 255, 255);
+    padding: 30px;
+
+}
+
+#bone p {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+#btwo {
+    width: 25%;
+    min-height: inherit;
+
+    background-color: rgb(117, 250, 1);
+    background-image: url(https://images.unsplash.com/photo-1650526291975-3f1677890136?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1033&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#bthree {
+    width: 23%;
+    min-height: inherit;
+
+    background-color: rgb(68, 53, 38);
+}
+
+#bthree-top {
+    width: 100%;
+    min-height: 20vh;
+    background-color: rgb(255, 115, 0);
+    padding: 20px;
+    color: white;
+
+}
+
+#bthree-top p {
+    font-size: 10px;
+    margin-top: 13px;
+}
+
+#bthree-bottom {
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://images.unsplash.com/photo-1444090542259-0af8fa96557e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#bfour {
+    width: 30%;
+    min-height: inherit;
+    background-color: rgb(57, 57, 57);
+    color: #fff;
+    padding: 30px;
+
+}
+
+.notf {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.notf #photo {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: contain;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1664176702106-4196b5cf06d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1037&q=80);
+}
+.notf #photo1 {
+    background-color: red;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-size: contain;
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1664029593214-3f90535cd0cf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyMjN8fHxlbnwwfHx8fA%3D%3D&auto=format&fit=crop&w=400&q=60);
+    
+}
+.notf #photo2    {
+    background-color: rgb(171, 171, 171);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-size: contain; */
+    background-size: cover;
+    background-image: url(https://images.unsplash.com/photo-1664276353817-c0a46d67be42?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80);
+}
+
+
+.notf p {
+    width: 80%;
+    font-size: 12px;
+
+}
+
+
+@media(max-width: 500px) {
+    #overlay #text {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #overlay #text #textright {
+        flex-direction: column;
+        align-items: flex-start;
+
+
+    }
+
+    #overlay #text #textright p {
+        width: initial;
+        margin-top: 20px;
+    }
+
+    #overlay #text #textright #icons {
+        margin-top: 30px;
+
+    }
+
+    #text h1 {
+        font-size: 10vw;
+    }
+
+    #bottom {
+        flex-direction: column;
+
+    }
+
+    #bottom {
+        min-height: 20vh;
+    }
+
+    #bone {
+        width: 100%;
+
+    }
+
+    #btwo {
+        width: 100%;
+        min-height: 40vh;
+
+    }
+
+    #bthree {
+        flex-direction: column;
+        width: 100%;
+
+    }
+
+    #bfour {
+        width: 100%;
+
+    }
+
+    #bthree-bottom {
+        min-height: 40vh;
+    }
+
+}
